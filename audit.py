@@ -83,9 +83,8 @@ def update_name(name):
 
 update_street = audit(OSMFILE) 
 #pprint.pprint(dict(update_street))
-######################################
-#POSTCODE - AUDIT
-######################################
+
+# Postcode - Audit
 
 #Determine if this is this an address
 def is_address(elem):
